@@ -17,7 +17,7 @@
     "test": "jest --runInBand"
   },
   "author": "Mike Richards <winstonpapertrail@mikerichards.tech>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "glossy": "^0.1.7"
   },

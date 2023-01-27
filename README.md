@@ -8,6 +8,12 @@ to simplify the Papertrail connection, and can be used as a simple Winston v3 tr
 
 This is based off of [winston-papertrail][1], which stopped working for winston v3.
 
+## ⚠️Dev Build⚠️
+
+This library is still in development. I'm working out a few kinks before releasing to beta. This library may not
+work for you in the meantime.
+
+
 
 ## Installation
 
