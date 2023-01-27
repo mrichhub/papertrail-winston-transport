@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
 	"type": "git",
-	"url": "https://github.com/mrichhub/papertrail-winston-transport"
+	"url": "https://github.com/mrichhub/papertrail-winston-transport.git"
   },
   "keywords": [
 	"papertrail",
@@ -31,6 +31,9 @@
 	"silly",
 	"verbose"
   ],
+  "publishConfig": {
+	"registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "glossy": "^0.1.7"
   },
