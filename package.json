@@ -1,6 +1,6 @@
 {
   "name": "papertrail-winston-transport",
-  "version": "3.0.0-dev.0",
+  "version": "3.0.0-dev.1",
   "description": "A Winston v3 transport for Papertrail",
   "main": "./lib/index.js",
   "files": [
