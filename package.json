@@ -31,9 +31,6 @@
 	"silly",
 	"verbose"
   ],
-  "publishConfig": {
-	"registry": "https://npm.pkg.github.com"
-  },
   "dependencies": {
     "glossy": "^0.1.7"
   },
