@@ -110,6 +110,7 @@ export class PapertrailTransport extends Transport
 	private connectStream(): void {
 		if (this.isClosed || this.isConnecting) { return }
 
+		this.isConnected = false
 		this.isConnecting = true
 
 		const socket = net.createConnection(

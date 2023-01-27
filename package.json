@@ -1,6 +1,6 @@
 {
   "name": "papertrail-winston-transport",
-  "version": "3.0.0-dev.2",
+  "version": "3.0.0-beta.0",
   "description": "A Winston v3 transport for Papertrail",
   "main": "./lib/index.js",
   "files": [
@@ -22,6 +22,15 @@
 	"type": "git",
 	"url": "https://github.com/mrichhub/papertrail-winston-transport"
   },
+  "keywords": [
+	"papertrail",
+	"winston",
+	"log",
+	"logger",
+	"transport",
+	"silly",
+	"verbose"
+  ],
   "dependencies": {
     "glossy": "^0.1.7"
   },
