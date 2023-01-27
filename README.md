@@ -8,10 +8,10 @@ to simplify the Papertrail connection, and can be used as a simple Winston v3 tr
 
 This is based off of [winston-papertrail][1], which stopped working for winston v3.
 
-## ⚠️Dev Build⚠️
+## ⚠️ Dev Build
 
-This library is still in development. I'm working out a few kinks before releasing to beta. This library may not
-work for you in the meantime.
+This library is still in development. I'm working out a few kinks before releasing to beta. Please give it a
+try, but keep that in mind.
 
 
 
@@ -32,7 +32,7 @@ There are a few required options for logging to Papertrail:
 ## Usage
 ```typescript
   import winston from "winston"
-  import { PapertrailTransport } from "papertrail-winston-transport
+  import { PapertrailTransport } from "papertrail-winston-transport"
 
   const logger = winston.createLogger({
     transports: [
@@ -52,6 +52,12 @@ There are a few required options for logging to Papertrail:
   logger.silly("Silly log statement")
   logger.debug("Debug log statement")
 ```
+
+Some other optional settings:
+
+- `hostname` - The hostname for your transport. `default: os.hostname()`
+- `program` - The program for your transport. `default: undefined`
+
 
 #### Author: [Mike Richards](https://twitter.com/MMRichards)
 

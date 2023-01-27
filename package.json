@@ -1,6 +1,6 @@
 {
   "name": "papertrail-winston-transport",
-  "version": "3.0.0-dev.1",
+  "version": "3.0.0-dev.2",
   "description": "A Winston v3 transport for Papertrail",
   "main": "./lib/index.js",
   "files": [
@@ -18,6 +18,10 @@
   },
   "author": "Mike Richards <winstonpapertrail@mikerichards.tech>",
   "license": "MIT",
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/mrichhub/papertrail-winston-transport"
+  },
   "dependencies": {
     "glossy": "^0.1.7"
   },
