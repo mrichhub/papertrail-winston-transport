@@ -1,6 +1,6 @@
 {
   "name": "papertrail-winston-transport",
-  "version": "3.0.0-beta.1",
+  "version": "3.0.0-beta.2",
   "description": "A Winston v3 transport for Papertrail",
   "main": "./lib/index.js",
   "files": [
@@ -13,6 +13,7 @@
 	"eslint": "eslint 'src/**'",
     "prebuild": "npm run clearlib",
     "prebuild:npm": "npm run prebuild",
+    "prepublishOnly": "npm run build:npm",
 	"pretest": "npm run eslint",
     "test": "jest --runInBand"
   },
